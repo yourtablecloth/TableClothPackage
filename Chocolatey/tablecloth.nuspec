@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tablecloth</id>
+    <version>0.5.4</version>
+    <packageSourceUrl>https://github.com/yourtablecloth/TableClothPackage</packageSourceUrl>
+
+    <title>TableCloth (Install)</title>
+    <authors>rkttu.com</authors>
+    <projectUrl>https://yourtablecloth.app</projectUrl>
+    <iconUrl>https://github.com/yourtablecloth/TableCloth/raw/dev/docs/images/TableCloth_NewLogo.png</iconUrl>
+    <copyright>(c) 2021 rkttu.com, All rights reserved.</copyright>
+    <licenseUrl>https://github.com/yourtablecloth/TableCloth/blob/dev/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/yourtablecloth/TableCloth</projectSourceUrl>
+    <docsUrl>https://yourtablecloth.app</docsUrl>
+
+    <bugTrackerUrl>https://github.com/yourtablecloth/TableCloth/issues</bugTrackerUrl>
+    <tags>tablecloth 식탁보</tags>
+    <summary>This app helps to run internet services that are only available through the installation of accessories in an isolated environment.</summary>
+    <description>Utilizing Windows Sandbox added from Windows 10 version 1909, it helps to use various client security programs installed when using Internet banking or e-government Internet service on a computer without affecting the actual computer environment.</description>
+    <dependencies>
+      <!-- <dependency id="chocolatey-core.extension" version="1.1.0" /> -->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
