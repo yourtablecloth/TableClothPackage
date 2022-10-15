@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/yourtablecloth/TableCloth/releases/download/v0.5.5/TableCloth_0.5.5_Setup.msi'
+$url        = 'https://github.com/yourtablecloth/TableCloth/releases/download/v0.5.4/TableCloth_0.5.4_Setup.msi'
 $url64      = $url
 
 $packageArgs = @{
@@ -12,7 +12,7 @@ $packageArgs = @{
 
   softwareName  = 'TableCloth*'
 
-  checksum      = '135273BC610735D12376D26DC2BA294D4BA6480ABF35F25F86A865EBA269809C'
+  checksum      = '1776BD1E73CFCBF063CB31186D206E3392C82E1598202DC0868B45D26D449F03'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
