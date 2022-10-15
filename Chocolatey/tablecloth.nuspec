@@ -2,11 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>tablecloth</id>
-    <version>0.5.4</version>
+    <version>0.5.5</version>
     <packageSourceUrl>https://github.com/yourtablecloth/TableClothPackage</packageSourceUrl>
 
     <title>TableCloth (Install)</title>
-    <authors>rkttu.com</authors>
+    <owners>rkttu</owners>
+    <authors>Jung Hyun Nam</authors>
     <projectUrl>https://yourtablecloth.app</projectUrl>
     <iconUrl>https://github.com/yourtablecloth/TableCloth/raw/dev/docs/images/TableCloth_NewLogo.png</iconUrl>
     <copyright>(c) 2021 rkttu.com, All rights reserved.</copyright>
