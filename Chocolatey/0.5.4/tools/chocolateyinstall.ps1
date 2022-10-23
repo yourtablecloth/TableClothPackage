@@ -1,14 +1,12 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $url        = 'https://github.com/yourtablecloth/TableCloth/releases/download/v0.5.4/TableCloth_0.5.4_Setup.msi'
-$url64      = $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   fileType      = 'MSI'
   url           = $url
-  url64bit      = $url64
 
   softwareName  = 'TableCloth*'
 
