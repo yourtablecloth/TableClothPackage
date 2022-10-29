@@ -1,0 +1,4 @@
+[submodule "WinGet"]
+	path = WinGet
+	url = git@github.com:yourtablecloth/winget-pkgs.git
+	branch = tablecloth
